@@ -1,0 +1,16 @@
+PODS:
+  - LqbCommonFromework (1.0.0)
+
+DEPENDENCIES:
+  - LqbCommonFromework (from `../`)
+
+EXTERNAL SOURCES:
+  LqbCommonFromework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LqbCommonFromework: 46c6b5edfbfd13e634318d10e5b9c0b4ac4c90bf
+
+PODFILE CHECKSUM: ae69a781c85615d1d6b6068f734fd588b89918da
+
+COCOAPODS: 1.10.1
