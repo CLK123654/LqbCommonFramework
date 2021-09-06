@@ -175,10 +175,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LqbCommonFromework/LqbCommonFromework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LqbCommonFramework/LqbCommonFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LqbCommonFromework/LqbCommonFromework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LqbCommonFramework/LqbCommonFramework.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

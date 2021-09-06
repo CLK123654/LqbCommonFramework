@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'LqbCommonFromework_Example' do
-  pod 'LqbCommonFromework', :path => '../'
+target 'LqbCommonFramework_Example' do
+  pod 'LqbCommonFramework', :path => '../'
 
-  target 'LqbCommonFromework_Tests' do
+  target 'LqbCommonFramework_Tests' do
     inherit! :search_paths
 
     

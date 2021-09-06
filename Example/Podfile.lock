@@ -1,16 +1,16 @@
 PODS:
-  - LqbCommonFromework (1.0.0)
+  - LqbCommonFramework (1.0.0)
 
 DEPENDENCIES:
-  - LqbCommonFromework (from `../`)
+  - LqbCommonFramework (from `../`)
 
 EXTERNAL SOURCES:
-  LqbCommonFromework:
+  LqbCommonFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LqbCommonFromework: 46c6b5edfbfd13e634318d10e5b9c0b4ac4c90bf
+  LqbCommonFramework: 7e039fbfd2c61c0020a055f943606ed787e656d1
 
-PODFILE CHECKSUM: ae69a781c85615d1d6b6068f734fd588b89918da
+PODFILE CHECKSUM: 6e6fedf4da5368577f7ffe98c3322abb617a5794
 
 COCOAPODS: 1.10.1

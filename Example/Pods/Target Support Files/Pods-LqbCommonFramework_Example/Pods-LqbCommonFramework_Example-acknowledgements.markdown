@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## LqbCommonFromework
+## LqbCommonFramework
 
 Copyright (c) 2021 Lqb <1611489019@qq.com>
 

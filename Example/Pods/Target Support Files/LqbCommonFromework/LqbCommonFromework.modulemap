@@ -1,6 +1,0 @@
-framework module LqbCommonFromework {
-  umbrella header "LqbCommonFromework-umbrella.h"
-
-  export *
-  module * { export * }
-}

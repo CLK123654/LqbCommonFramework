@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1425198C6271B5CC26C44571 /* Pods_LqbCommonFromework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A630E507EF823A5B276EE13 /* Pods_LqbCommonFromework_Example.framework */; };
+		1425198C6271B5CC26C44571 /* Pods_LqbCommonFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A630E507EF823A5B276EE13 /* Pods_LqbCommonFramework_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EAFE4F74FC8DE24D4BB06F43 /* Pods_LqbCommonFromework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFromework_Tests.framework */; };
+		EAFE4F74FC8DE24D4BB06F43 /* Pods_LqbCommonFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFramework_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +23,30 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = LqbCommonFromework;
+			remoteInfo = LqbCommonFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFromework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFromework_Example.debug.xcconfig"; path = "Target Support Files/Pods-LqbCommonFromework_Example/Pods-LqbCommonFromework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-LqbCommonFramework_Example/Pods-LqbCommonFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		385FE91C2FB7FE1A29A6B2B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		395A052C891448B389984998 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* LqbCommonFromework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LqbCommonFromework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* LqbCommonFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LqbCommonFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* LqbCommonFromework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LqbCommonFromework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* LqbCommonFramework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LqbCommonFramework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFromework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFromework_Example.release.xcconfig"; path = "Target Support Files/Pods-LqbCommonFromework_Example/Pods-LqbCommonFromework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7A630E507EF823A5B276EE13 /* Pods_LqbCommonFromework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqbCommonFromework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFromework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFromework_Tests.release.xcconfig"; path = "Target Support Files/Pods-LqbCommonFromework_Tests/Pods-LqbCommonFromework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A140A3CD2E505AEF7901A858 /* LqbCommonFromework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LqbCommonFromework.podspec; path = ../LqbCommonFromework.podspec; sourceTree = "<group>"; };
-		DF1958F69836DDD2D4187994 /* Pods-LqbCommonFromework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFromework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LqbCommonFromework_Tests/Pods-LqbCommonFromework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFromework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqbCommonFromework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-LqbCommonFramework_Example/Pods-LqbCommonFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A630E507EF823A5B276EE13 /* Pods_LqbCommonFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqbCommonFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-LqbCommonFramework_Tests/Pods-LqbCommonFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A140A3CD2E505AEF7901A858 /* LqbCommonFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LqbCommonFramework.podspec; path = ../LqbCommonFramework.podspec; sourceTree = "<group>"; };
+		DF1958F69836DDD2D4187994 /* Pods-LqbCommonFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqbCommonFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LqbCommonFramework_Tests/Pods-LqbCommonFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqbCommonFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1425198C6271B5CC26C44571 /* Pods_LqbCommonFromework_Example.framework in Frameworks */,
+				1425198C6271B5CC26C44571 /* Pods_LqbCommonFramework_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAFE4F74FC8DE24D4BB06F43 /* Pods_LqbCommonFromework_Tests.framework in Frameworks */,
+				EAFE4F74FC8DE24D4BB06F43 /* Pods_LqbCommonFramework_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,10 +72,10 @@
 		3E1AD1F8F31F863BDBE9264B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFromework_Example.debug.xcconfig */,
-				67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFromework_Example.release.xcconfig */,
-				DF1958F69836DDD2D4187994 /* Pods-LqbCommonFromework_Tests.debug.xcconfig */,
-				964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFromework_Tests.release.xcconfig */,
+				11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFramework_Example.debug.xcconfig */,
+				67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFramework_Example.release.xcconfig */,
+				DF1958F69836DDD2D4187994 /* Pods-LqbCommonFramework_Tests.debug.xcconfig */,
+				964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFramework_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for LqbCommonFromework */,
+				607FACD21AFB9204008FA782 /* Example for LqbCommonFramework */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3E1AD1F8F31F863BDBE9264B /* Pods */,
@@ -96,13 +96,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* LqbCommonFromework_Example.app */,
-				607FACE51AFB9204008FA782 /* LqbCommonFromework_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* LqbCommonFramework_Example.app */,
+				607FACE51AFB9204008FA782 /* LqbCommonFramework_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for LqbCommonFromework */ = {
+		607FACD21AFB9204008FA782 /* Example for LqbCommonFramework */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -112,8 +112,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for LqbCommonFromework";
-			path = LqbCommonFromework;
+			name = "Example for LqbCommonFramework";
+			path = LqbCommonFramework;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -144,7 +144,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A140A3CD2E505AEF7901A858 /* LqbCommonFromework.podspec */,
+				A140A3CD2E505AEF7901A858 /* LqbCommonFramework.podspec */,
 				395A052C891448B389984998 /* README.md */,
 				385FE91C2FB7FE1A29A6B2B7 /* LICENSE */,
 			);
@@ -154,8 +154,8 @@
 		D6E57E44ACEF5EA92509FB8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A630E507EF823A5B276EE13 /* Pods_LqbCommonFromework_Example.framework */,
-				FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFromework_Tests.framework */,
+				7A630E507EF823A5B276EE13 /* Pods_LqbCommonFramework_Example.framework */,
+				FC734A6E5EB441587D4B20CE /* Pods_LqbCommonFramework_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* LqbCommonFromework_Example */ = {
+		607FACCF1AFB9204008FA782 /* LqbCommonFramework_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFromework_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFramework_Example" */;
 			buildPhases = (
 				9BB88FF74307430C4A8EE353 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = LqbCommonFromework_Example;
-			productName = LqbCommonFromework;
-			productReference = 607FACD01AFB9204008FA782 /* LqbCommonFromework_Example.app */;
+			name = LqbCommonFramework_Example;
+			productName = LqbCommonFramework;
+			productReference = 607FACD01AFB9204008FA782 /* LqbCommonFramework_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* LqbCommonFromework_Tests */ = {
+		607FACE41AFB9204008FA782 /* LqbCommonFramework_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFromework_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFramework_Tests" */;
 			buildPhases = (
 				4950132535DB96615AD68408 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = LqbCommonFromework_Tests;
+			name = LqbCommonFramework_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* LqbCommonFromework_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* LqbCommonFramework_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LqbCommonFromework" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LqbCommonFramework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* LqbCommonFromework_Example */,
-				607FACE41AFB9204008FA782 /* LqbCommonFromework_Tests */,
+				607FACCF1AFB9204008FA782 /* LqbCommonFramework_Example */,
+				607FACE41AFB9204008FA782 /* LqbCommonFramework_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,7 +277,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LqbCommonFromework_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LqbCommonFramework_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -290,16 +290,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LqbCommonFromework_Example/Pods-LqbCommonFromework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LqbCommonFromework/LqbCommonFromework.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-LqbCommonFramework_Example/Pods-LqbCommonFramework_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LqbCommonFramework/LqbCommonFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LqbCommonFromework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LqbCommonFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LqbCommonFromework_Example/Pods-LqbCommonFromework_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LqbCommonFramework_Example/Pods-LqbCommonFramework_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BB88FF74307430C4A8EE353 /* [CP] Check Pods Manifest.lock */ = {
@@ -317,7 +317,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LqbCommonFromework_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LqbCommonFramework_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,7 +349,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* LqbCommonFromework_Example */;
+			target = 607FACCF1AFB9204008FA782 /* LqbCommonFramework_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,10 +475,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFromework_Example.debug.xcconfig */;
+			baseConfigurationReference = 11A0CC9ACC747A32340A9E29 /* Pods-LqbCommonFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LqbCommonFromework/Info.plist;
+				INFOPLIST_FILE = LqbCommonFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -490,10 +490,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFromework_Example.release.xcconfig */;
+			baseConfigurationReference = 67BE9F0CC40F3E00D445C6BD /* Pods-LqbCommonFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LqbCommonFromework/Info.plist;
+				INFOPLIST_FILE = LqbCommonFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -505,7 +505,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF1958F69836DDD2D4187994 /* Pods-LqbCommonFromework_Tests.debug.xcconfig */;
+			baseConfigurationReference = DF1958F69836DDD2D4187994 /* Pods-LqbCommonFramework_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -521,13 +521,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LqbCommonFromework_Example.app/LqbCommonFromework_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LqbCommonFramework_Example.app/LqbCommonFramework_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFromework_Tests.release.xcconfig */;
+			baseConfigurationReference = 964343713D4F4E4BE7080BE6 /* Pods-LqbCommonFramework_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -539,14 +539,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LqbCommonFromework_Example.app/LqbCommonFromework_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LqbCommonFramework_Example.app/LqbCommonFramework_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LqbCommonFromework" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LqbCommonFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFromework_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFromework_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LqbCommonFramework_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

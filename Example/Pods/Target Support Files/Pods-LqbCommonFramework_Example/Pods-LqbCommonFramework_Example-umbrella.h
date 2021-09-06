@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double LqbCommonFromeworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char LqbCommonFromeworkVersionString[];
+FOUNDATION_EXPORT double Pods_LqbCommonFramework_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LqbCommonFramework_ExampleVersionString[];
 
