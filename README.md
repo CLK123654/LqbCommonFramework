@@ -17,7 +17,7 @@ LqbCommonFromework is available through [CocoaPods](https://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LqbCommonFromework' '~> 1.1.0'
+pod 'LqbCommonFromework' '~> 1.2.0'
 ```
 
 ## Author
@@ -27,3 +27,7 @@ Lqb, 1611489019@qq.com
 ## License
 
 LqbCommonFromework is available under the MIT license. See the LICENSE file for more info.
+
+
+## 注意
+1.1.0和1.0.0版本老有错误,因为cocopods那边的问题,暂时删不掉
