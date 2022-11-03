@@ -39,6 +39,29 @@ func LqbScreenHeight(num:CGFloat) -> CGFloat {
     return num*kScreenH/667.0
 }
 
+func LqbLog(_ items: Any...,
+    separator: String = "\n",
+    terminator: String = "\n",
+    file: String = #file,
+    function: String = #function,
+    line: Int = #line)
+{
+    #if DEBUG
+    let filenime = (file as NSString).lastPathComponent
+    let timeDate = "[\(String.getLocalTimeWith("yyyy-MM-dd HH:mm:ss"))]"
+    print("开始打印:\n[时间]:\(timeDate)\n[文件名]:[\(filenime)]\n[方法名]:[\(function)]\n[行号]:[\(line)]")
+    print("[打印对象的数量]:[\(items.count)]")
+    var i = 0
+    let j = items.count
+    for item in items {
+        i += 1
+        print(item, terminator: (i == j ? terminator : separator))
+    }
+    //换行
+    print()
+    #endif
+}
+
 // MARK: - 通用方法集合
 /// 简写IMG
 public func IMG(_ imgName: String) -> UIImage {
@@ -49,3 +72,12 @@ public func IMG(_ imgName: String) -> UIImage {
 public func CopyAction(_ str: String) {
     UIPasteboard.general.string = str
 }
+
+func isiPhoneXMore() -> Bool {
+    if #available(iOS 11.0, *) {
+        return UIApplication.shared.mainWindow()!.safeAreaInsets.bottom > 0
+    } else {
+        return false
+    }
+}
+

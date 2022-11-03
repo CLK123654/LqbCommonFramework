@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LqbCommonFramework'
-  s.version          = '1.0.0'
-  s.summary          = 'A short description of LqbCommonFramework.'
+  s.version          = '1.0'
+  s.summary          = 'LqbCommonFramework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,11 +26,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CLK123654' => '1611489019@qq.com' }
   s.source           = { :git => 'https://github.com/CLK123654/LqbCommonFramework.git', :tag => s.version.to_s }
+  s.swift_versions = '4.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LqbCommonFramework/Classes/**/*'
+  s.source_files = '**/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LqbCommonFramework' => ['LqbCommonFramework/Assets/*.png']
