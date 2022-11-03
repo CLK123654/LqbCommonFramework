@@ -30,4 +30,4 @@ LqbCommonFromework is available under the MIT license. See the LICENSE file for 
 
 
 ## 注意
-1.1.0和1.0.0版本老有错误,因为cocopods那边的问题,暂时删不掉
+1.1.0和1.0.0版本用于swift4.2以下,
