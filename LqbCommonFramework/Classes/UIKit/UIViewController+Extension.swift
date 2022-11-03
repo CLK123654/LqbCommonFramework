@@ -38,7 +38,7 @@ extension UIViewController {
         } else {
             navigationController = self.navigationController
         }
-        guard let children = navigationController?.childViewControllers else { return }
+        guard let children = navigationController?.children else { return }
         for childVC in children {
             if childVC.isKind(of: childClass) {
                 navigationController?.popToViewController(childVC, animated: true)
