@@ -10,7 +10,7 @@ import UIKit
 extension UIColor {
     
     /// UIColor 16进制编码转换RGB
-    class func lqb_hexColor(_ wt_hex: String, alpha: CGFloat = 1.0) -> UIColor {
+    public class func lqb_hexColor(_ wt_hex: String, alpha: CGFloat = 1.0) -> UIColor {
         var hexStr = wt_hex.uppercased()
         if (hexStr.hasPrefix("#")) {
             hexStr = (hexStr as NSString).substring(from: 1)
@@ -26,12 +26,12 @@ extension UIColor {
     }
     
     /// RGB形式转换Color
-    class func lqb_rgbColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1) -> UIColor {
+    public class func lqb_rgbColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1) -> UIColor {
         return UIColor(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: alpha)
     }
     
     // 生成随机颜色
-    class func lqb_randomColor() -> UIColor {
+    public class func lqb_randomColor() -> UIColor {
         let red = CGFloat(arc4random() % 256) / 255.0
         let green = CGFloat(arc4random() % 256) / 255.0
         let blue = CGFloat(arc4random() % 256) / 255.0

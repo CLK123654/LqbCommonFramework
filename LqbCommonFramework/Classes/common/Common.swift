@@ -73,11 +73,10 @@ public func CopyAction(_ str: String) {
     UIPasteboard.general.string = str
 }
 
-func isiPhoneXMore() -> Bool {
+public func isiPhoneXMore() -> Bool {
     if #available(iOS 11.0, *) {
         return UIApplication.shared.mainWindow()!.safeAreaInsets.bottom > 0
     } else {
         return false
     }
 }
-

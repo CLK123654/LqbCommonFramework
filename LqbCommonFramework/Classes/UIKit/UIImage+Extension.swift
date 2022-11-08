@@ -17,12 +17,12 @@ extension UIImage {
     }
     
     /// 原图像
-    func setOriginalImg() -> UIImage {
+    public func setOriginalImg() -> UIImage {
         return self.withRenderingMode(.alwaysOriginal)
     }
     
     /// 给我一个颜色，还你一个图片
-    class func imgWithColor(_ color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
+    public class func imgWithColor(_ color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
         
         let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
         
@@ -45,7 +45,7 @@ extension UIImage {
         return img ?? UIImage()
     }
     
-    class func fullResolutionImageData(asset: PHAsset) -> UIImage? {
+    public class func fullResolutionImageData(asset: PHAsset) -> UIImage? {
         let options = PHImageRequestOptions()
         options.isSynchronous = true
         options.resizeMode = .none

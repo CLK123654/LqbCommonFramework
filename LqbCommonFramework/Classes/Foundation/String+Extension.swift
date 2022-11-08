@@ -14,7 +14,7 @@ extension String {
      * @param
      * @returnDateFormat: 返回的格式，根据自己想要的格式，例如："yyyy-MM-dd HH:mm:ss"
      */
-    static func getLocalTimeWith(_ returnDateFormat: String) -> String {
+    static public func getLocalTimeWith(_ returnDateFormat: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = returnDateFormat
         let locale = Locale.init(identifier: Locale.preferredLanguages[0])
@@ -30,17 +30,17 @@ extension String {
     }
     
     /// 获取一个随机数
-    static func getRandomNum() -> String {
+    public static func getRandomNum() -> String {
         return String(format: "%d", arc4random())
     }
     
     /// 获取一个timestamp
-    static func getTimestamp() -> String {
+    public static func getTimestamp() -> String {
         return String(format: "%.0f", Date().timeIntervalSince1970)
     }
     
     /// 每个中文首字母拼接
-    func chineseFirstCharacters(lowercased: Bool) -> String {
+    public func chineseFirstCharacters(lowercased: Bool) -> String {
         let ostr = NSMutableString.init(string: self)
         CFStringTransform(ostr as CFMutableString, nil, kCFStringTransformMandarinLatin, false)
         CFStringTransform(ostr as CFMutableString, nil, kCFStringTransformStripDiacritics, false)
@@ -66,7 +66,7 @@ extension String {
     }
     
     // 去掉所有空格
-    func removeAllSpace() -> String {
+    public func removeAllSpace() -> String {
         return self.replacingOccurrences(of: " ", with: "", options: .literal, range: nil)
     }
     
@@ -91,7 +91,7 @@ extension String {
         return tempString
     }
     
-    func trimPrefix(_ prefix: String) -> String {
+    public func trimPrefix(_ prefix: String) -> String {
         guard self.hasPrefix(prefix) else { return self }
         return String(self.dropFirst(prefix.count))
     }

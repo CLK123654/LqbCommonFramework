@@ -11,7 +11,7 @@ import UIKit
 extension NSObject {
     
     /// 获取“类”的属性列表
-    func propertyList() -> [String] {
+    public func propertyList() -> [String] {
         var count: UInt32 = 0
         let list = class_copyPropertyList(self.classForCoder, &count)
         let className = String(describing: self.classForCoder).components(separatedBy: ".").last ?? ""
@@ -41,7 +41,7 @@ extension NSObject {
     /// - Parameters:
     ///   - originalSelector: The original selector
     ///   - swizzledSelector: A new selector
-    class func exchangeImplementations(originalSelector: Selector, swizzledSelector: Selector) {
+    public class func exchangeImplementations(originalSelector: Selector, swizzledSelector: Selector) {
         guard
             let originalMethod = class_getInstanceMethod(self, originalSelector),
             let swizzledMethod = class_getInstanceMethod(self, swizzledSelector)

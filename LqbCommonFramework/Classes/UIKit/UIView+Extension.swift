@@ -110,6 +110,36 @@ extension UIView {
         //设置阴影偏移量
         self.layer.shadowOffset = offset
     }
+    
+    /// 渐变色
+    public func gradientColor(_ colors: [CGColor], locations: [NSNumber]?, startPoint: CGPoint, endPoint: CGPoint, cornerRadius: CGFloat = 0) {
+        let bgLayer1 = CAGradientLayer()
+        bgLayer1.colors = colors
+        bgLayer1.locations = locations
+        bgLayer1.frame = self.bounds
+        bgLayer1.startPoint = startPoint
+        bgLayer1.endPoint = endPoint
+        bgLayer1.masksToBounds = true
+        bgLayer1.cornerRadius = cornerRadius
+        self.layer.addSublayer(bgLayer1)
+    }
+        
+        /// 将当前视图转为UIImage
+    public func asImage() -> UIImage {
+        let renderer = UIGraphicsImageRenderer(bounds: bounds)
+        return renderer.image { rendererContext in
+            layer.render(in: rendererContext.cgContext)
+        }
+    }
+        
+        
+        //加载XIB
+    public class func initInstanceFromXib<T:UIView>(_ type:T.Type) -> T{
+            
+        return Bundle.main.loadNibNamed(String(describing: type), owner: self, options: nil)?.first as! T
+        
+    }
+
 
 }
 

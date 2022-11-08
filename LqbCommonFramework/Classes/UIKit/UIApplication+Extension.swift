@@ -10,18 +10,18 @@ import UIKit
 extension UIApplication {
     
     /// 拿到window
-    @objc func mainWindow() -> UIWindow? {
+    @objc public func mainWindow() -> UIWindow? {
         return self.delegate?.window ?? nil
     }
     
     /// 拿到当前VC
-    @objc func visibleVC() -> UIViewController {
+    @objc public func visibleVC() -> UIViewController {
         let rootVC = self.mainWindow()?.rootViewController
         return self.getVisibleVCWith(vc: rootVC ?? UIViewController())
     }
     
     /// 匹配当前VC
-    @objc func getVisibleVCWith(vc: UIViewController) -> UIViewController {
+    @objc public func getVisibleVCWith(vc: UIViewController) -> UIViewController {
         
         if vc.isKind(of: UINavigationController.classForCoder()) {
             return self.getVisibleVCWith(vc: (vc as? UINavigationController)?.visibleViewController ?? UIViewController())
@@ -39,7 +39,7 @@ extension UIApplication {
     }
     
     /// 方法取NC
-    @objc func visibleNC() -> UINavigationController {
+    @objc public func visibleNC() -> UINavigationController {
         return self.visibleVC().navigationController ?? UINavigationController()
     }
     

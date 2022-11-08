@@ -8,7 +8,7 @@
 import UIKit
 
 extension URL {
-    func queryStringComponents() -> [String: AnyObject] {
+    public func queryStringComponents() -> [String: AnyObject] {
 
         var dict = [String: AnyObject]()
 
@@ -30,7 +30,7 @@ extension URL {
         return dict
     }
     
-    func params() -> [String:String] {
+    public func params() -> [String:String] {
        var dict = [String:String]()
 
        if let components = URLComponents(url: self, resolvingAgainstBaseURL: false) {
