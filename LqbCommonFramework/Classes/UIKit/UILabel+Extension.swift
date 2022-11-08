@@ -36,7 +36,7 @@ extension UILabel {
 private var is_copyEnabled = false;
 
 extension UILabel {
-    var isCopyEnabled: Bool {
+    public var isCopyEnabled: Bool {
         get{
             return objc_getAssociatedObject(self, &is_copyEnabled) as! Bool
         }
