@@ -33,7 +33,8 @@ extension UILabel {
     }
 }
 
-private var is_copyEnabled = false
+private var is_copyEnabled = false;
+
 extension UILabel {
     public var isCopyEnabled: Bool {
         get{
