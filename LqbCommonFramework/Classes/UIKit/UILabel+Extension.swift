@@ -55,7 +55,7 @@ extension UILabel {
         self.addGestureRecognizer(longPress)
     }
     
-    @objc open func handleTap(ges: UIGestureRecognizer) {
+    @objc public func handleTap(ges: UIGestureRecognizer) {
         if ges.state == .began {
             becomeFirstResponder()
             let item = UIMenuItem(title: "复制", action: #selector(UILabel.copyText(sender:)))
@@ -70,7 +70,7 @@ extension UILabel {
         
     }
     
-    open @objc func copyText(sender: Any) {
+    @objc public func copyText(sender: Any) {
         //通用粘贴板
         let pBoard = UIPasteboard.general
         //有时候只想取UILabel的text中一部分
